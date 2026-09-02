@@ -1,0 +1,33 @@
+{
+  "name": "Library Transaction",
+  "module": "Library Management",
+  "custom": 0,
+  "is_submittable": 1,
+  "fields": [
+    {
+      "fieldname": "article",
+      "fieldtype": "Link",
+      "label": "Article",
+      "options": "Article",
+      "reqd": 1
+    },
+    {
+      "fieldname": "library_member",
+      "fieldtype": "Link",
+      "label": "Library Member",
+      "options": "Library Member",
+      "reqd": 1
+    },
+    {
+      "fieldname": "type",
+      "fieldtype": "Select",
+      "label": "Type",
+      "options": "Issue\\nReturn"
+    },
+    {
+      "fieldname": "date",
+      "fieldtype": "Date",
+      "label": "Date"
+    }
+  ]
+}

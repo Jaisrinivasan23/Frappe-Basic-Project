@@ -1,0 +1,21 @@
+{
+  "name": "Article",
+  "module": "Library Management",
+  "custom": 0,
+  "autoname": "field:article_name",
+  "fields": [
+    {
+      "fieldname": "article_name",
+      "fieldtype": "Data",
+      "label": "Article Name",
+      "reqd": 1
+    },
+    {
+      "fieldname": "status",
+      "fieldtype": "Select",
+      "label": "Status",
+      "options": "Available\\nIssued",
+      "default": "Available"
+    }
+  ]
+}
